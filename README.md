@@ -17,3 +17,8 @@ The only complexity is escaping submatches. The script looks for the string `new
 ## Adding new items to the exclude file
 
 Simply add a new line with the new URL on. If you need a regex as part of the URL, use the form `new RegExp("...")`.
+
+## TODO
+
+* Add unit tests to ensure certain strings are escaped properly
+* Make it easier to use for users who don't use the terminal
