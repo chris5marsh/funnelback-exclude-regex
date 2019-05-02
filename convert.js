@@ -2,10 +2,9 @@
 "use strict";
 
 const fs = require("fs");
-//const path = require("path");
 const util = require("util");
-const writeFile = util.promisify(fs.writeFile);
 const console = require("better-console");
+const writeFile = util.promisify(fs.writeFile);
 
 module.exports = (data, onComplete) => {
 

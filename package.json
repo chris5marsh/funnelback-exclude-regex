@@ -2,7 +2,7 @@
   "name": "funnelback-exclude-regex",
   "version": "1.0.0",
   "description": "Create a regex for our Funnelback exclude file",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,6 @@
     "compression": "^1.7.4",
     "connect": "^3.6.6",
     "nodemon": "^1.19.0",
-    "serve-static": "^1.13.2",
-    "yargs": "^11.0.0"
+    "serve-static": "^1.13.2"
   }
 }
