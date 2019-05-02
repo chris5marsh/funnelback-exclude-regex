@@ -38,7 +38,9 @@ app.use('/api', function api(req, res, next) {
   }
 });
 
+var port = (process.env.NODE_ENV === 'production') ? 80 : 8080 ;
+
 // Deal with all other static files
-app.use(serveStatic(__dirname)).listen(8080, function(){
-  console.info('Server running on 8080...');
+app.use(serveStatic(__dirname)).listen(port, function(){
+  console.info('Server running on '+port+'...');
 });
