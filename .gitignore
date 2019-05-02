@@ -5,3 +5,5 @@ test
 .flowconfig
 .je-project-settings
 output-*.txt
+input.txt
+output.txt
