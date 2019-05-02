@@ -4,3 +4,4 @@ node_modules
 test
 .flowconfig
 .je-project-settings
+output-*.txt
